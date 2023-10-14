@@ -10,11 +10,9 @@ class Main
        hmap.put(4,"Karun");
        hmap.put(5,"Sunny");
       System.out.println("HashMap: " +hmap);
-      String a = "Haritha";
-     String b = hmap.get(a);
-        System.out.println("element contains" + hmap + b);
-        String c = "Haritha";
-        boolean exists = hmap.containsKey(c);
+     
+        String c = "Viswa";
+        boolean exists = hmap.containsKey(2);
         System.out.println(c + " exists in the HashMap: " + exists);
    }
 }
